@@ -3,6 +3,7 @@
 #include <string.h>
 #include <iostream>
 #include <sstream>
+#include <assert.h>
 
 #include "optimizacion.hpp"
 #include "economia.hpp"
@@ -12,6 +13,7 @@
 using namespace std;
 
 int main(int argc, char const *argv[]) {
+    assert(argc==3);
     Caso caso;
 
     // Leer csv.

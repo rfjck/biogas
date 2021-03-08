@@ -1,3 +1,12 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+build
+mmedia/*
+.vscode
+
 # Prerequisites
 *.d
 
